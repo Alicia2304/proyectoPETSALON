@@ -1,0 +1,34 @@
+body{
+    font-family:arial;
+}
+.formulario{
+    background-color: pink;
+    padding:30px;
+    border-radius:  20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right:auto;
+    
+}
+.formulario input,.formulario select{
+    display: block;
+    margin: 20px;
+    width: 50%;
+    padding: 5px;
+    border-radius: 5px;
+    border:4px solid brown;
+
+}
+.error{
+    border: 1px solid red;
+}
+.card{
+    background-color: #dedede;
+    border: 1px solid black;
+     
+}
+#mascotas{
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    column-gap:10px;
+}
